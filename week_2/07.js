@@ -5,4 +5,4 @@ const myMap = new Map();
 
 myMap.set('key', 'value');
 
-console.log(myMap.get('key')); // 'value' 출력
+console.log(myMap.get('key')); // 'value' 출력 

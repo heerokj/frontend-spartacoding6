@@ -11,7 +11,7 @@ for (const key of myMap.keys()) {
 
 for (const value of myMap.values()) {
     console.log(value);
-}
+} 
 
 for (const entry of myMap.entries()) {
     console.log(`${entry[0]}: ${entry[1]}`);
