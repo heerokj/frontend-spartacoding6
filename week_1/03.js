@@ -8,8 +8,14 @@ console.log(str.length); //12
 // 2-2. 문자열 결합하기
 let str1 = "Hello ";
 let str2 = "World!";
-let result = str1.concat(str2);
-console.log(result);
+let result1 = str1.concat(str2);
+console.log(result1); //"Hello World!"
+
+
+let str11 = "Hello"; //띄어쓰기 없을경우
+let str22 = "World!";
+let result2 = str1.concat(" ", str2); //요렇게!
+console.log(result2); //"Hello World!"
 
 // 2-3. 문자열 자르기
 let str3 = "Hello, World!";
