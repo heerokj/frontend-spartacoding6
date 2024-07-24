@@ -1,4 +1,5 @@
-// 배열의 요소로 함수를 할당(2)
+// 일급 객체로서의 함수(3)
+// 5. 배열의 요소로 함수를 할당(2)
 
 function multiplyBy(num) {
     return function(x) {
